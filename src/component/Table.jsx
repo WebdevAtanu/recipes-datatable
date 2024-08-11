@@ -39,7 +39,7 @@ function App() {
     ]
   return (
     <div id='table'>
-      <h1 className='text-center text-3xl text-red-500 m-5'>RECIPES</h1>
+      <h1 className='text-center text-3xl m-5'>RECIPES</h1>
       {
       data?
       <DataTable

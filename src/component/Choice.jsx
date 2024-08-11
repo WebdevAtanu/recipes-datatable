@@ -5,7 +5,7 @@ import '@splidejs/react-splide/css';
 function Choice() {
 	return (
 		<div id='occation'>
-			<h1 className='text-center text-3xl text-red-500 m-5'>OCCATION</h1>
+			<h1 className='text-center text-3xl m-5'>OCCATION</h1>
 			<div className="container m-auto p-3">
   					<div className="card2 m-auto p-3 flex gap-5 justify-center items-center flex-col md:flex-row">
   						<img src="img/1/108855019.webp" alt="food" className='w-3/4 md:w-1/4 mb-5 md:mb-0'/>

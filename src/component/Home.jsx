@@ -13,7 +13,7 @@ function Home() {
 
 	return (
 		<div id='home'>
-			<h1 className='text-center text-3xl text-red-500 m-5'>DELICIOUS</h1>
+			<h1 className='text-center text-3xl m-5'>DELICIOUS</h1>
 			<div className="container m-auto p-3" id='slides'>
 				<Splide aria-label="My Favorite Images" options={{
     			type: 'loop',
@@ -78,12 +78,11 @@ function Home() {
   					</SplideSlide>
 			</Splide>
 			<div className="text-center">
-				<button onClick={navigate} className='w-1/8 bg-amber-700 m-5 px-5 py-2 hover:bg-slate-900 hover:text-white duration-200 rounded'>VIEW ALL RECIPES</button>
+				<button onClick={navigate} className='w-1/8 m-5 px-5 py-2 text-white duration-200 rounded' id='recipebtn'>VIEW ALL RECIPES</button>
 				</div>
 			</div>
-			<div id="brand" className='container p-5 m-auto bg-gray-100'>
-			<h1 className='text-center text-yellow-600 text-sm mb-3'>BRAND GOODWILL</h1>
-				<ul className='flex justify-between p-3 md:text-4xl gap-2'>
+			<div id="brand" className='p-5 m-auto bg-gray-100'>
+				<ul className='flex justify-between p-3 md:text-5xl gap-2'>
 					<li>Yumm+wow</li>
 					<li>POPSUGAR</li>
 					<li>Grill taco</li>

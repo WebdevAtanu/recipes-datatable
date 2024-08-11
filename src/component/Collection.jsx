@@ -3,7 +3,7 @@ import React from 'react'
 function Collection() {
 	return (
 		<div id='collection'>
-<h1 className='text-center text-3xl text-red-500 m-5'>COLLECTION</h1>
+<h1 className='text-center text-3xl m-5'>COLLECTION</h1>
 <div className="container m-auto grid grid-cols-2 md:grid-cols-4">
 	<div className="card1 p-3">
 		<div className='imageCover w-1/2 m-auto'>

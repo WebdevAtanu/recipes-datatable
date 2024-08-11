@@ -8,7 +8,7 @@ function Choice() {
 			<h1 className='text-center text-3xl m-5'>OCCATION</h1>
 			<div className="container m-auto p-3">
   					<div className="card2 m-auto p-3 flex gap-5 justify-center items-center flex-col md:flex-row">
-  						<img src="img/1/108855019.webp" alt="food" className='w-3/4 md:w-1/4 mb-5 md:mb-0'/>
+  						<img src="img/1/111513049.webp" alt="food" className='w-3/4 md:w-1/4 mb-5 md:mb-0'/>
   						<div>
   						<h1 className='text-3xl'>dolor sit amet consectetur adipisicing elit</h1>
   						<p className='mt-4 text-gray-700'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam reprehenderit et, libero impedit omnis magni, deleniti error cumque vel incidunt rerum dolor. Optio nam atque, nobis perferendis, ipsum quis vitae.</p>
@@ -29,7 +29,7 @@ function Choice() {
   						</div>
   					</div>
   					<div className="card2 m-auto p-3 flex gap-5 justify-center items-center flex-col md:flex-row">
-  						<img src="img/1/108855173.webp" alt="food" className='w-3/4 md:w-1/4 mb-5 md:mb-0'/>
+  						<img src="img/1/111514347.webp" alt="food" className='w-3/4 md:w-1/4 mb-5 md:mb-0'/>
   						 <div>
   						<h1 className='text-3xl'>dolor sit amet consectetur adipisicing elit</h1>
   						<p className='mt-4 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium reprehenderit odio laudantium aspernatur laboriosam ad enim commodi? Aliquam iusto sunt fugit quod, at laborum similique cupiditate eos recusandae, nihil eligendi!</p>

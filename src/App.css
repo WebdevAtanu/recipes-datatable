@@ -9,30 +9,37 @@ body {
 }
 
 #nav {
-	background-color:#734060;
+	background-color: #734060;
+
 	img {
 		width: 3%;
 	}
 
 }
-h1{
-	color:#734060;
+
+h1 {
+	color: #734060;
 }
-#recipebtn{
-	background-color:#734060;
-	&:hover{
-		transform:scale(1.1);
+
+#recipebtn {
+	background-color: #734060;
+
+	&:hover {
+		transform: scale(1.1);
 	}
+
 }
-.accorion{
-	background-color:#734060;
+
+.accorion {
+	background-color: #734060;
 }
 
 #collection {
 }
 
 .card {
-	position:relative;
+	position: relative;
+
 	p {
 		text-align: center;
 	}
@@ -44,22 +51,28 @@ h1{
 
 }
 
-#brand{
-	ul{
-		color:grey;
-		& li:nth-child(1){
+#brand {
+	ul {
+		color: grey;
+
+		& li:nth-child(1) {
 			font-family: "Caveat", cursive;
 		}
-		& li:nth-child(2){
+
+		& li:nth-child(2) {
 			font-family: "Indie Flower", cursive;
 		}
-		& li:nth-child(3){
+
+		& li:nth-child(3) {
 			font-family: "Satisfy", cursive;
 		}
-		& li:nth-child(4){
+
+		& li:nth-child(4) {
 			font-family: "Great Vibes", cursive;
 		}
+
 	}
+
 }
 
 .card1 {
@@ -89,24 +102,27 @@ h1{
 }
 
 .card2 {
-	border-bottom:1px solid grey;
-
+	border-bottom: 1px solid grey;
 
 	img {
-		-webkit-mask-image: url(asset.png);
-		-webkit-mask-repeat: no-repeat;
+		clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 	}
 
 }
 
-#social{
-	li svg{
-		color:#734060;
-		&:hover{
-			color:black;
+#social {
+	li svg {
+		color: #734060;
+
+		&:hover {
+			color: black;
 		}
+
 	}
+
 }
+
+
 @media screen and (max-width:780px) {
 	#nav {
 		img {
